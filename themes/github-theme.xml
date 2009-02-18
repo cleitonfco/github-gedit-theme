@@ -45,6 +45,7 @@ Boston, MA 02111-1307, USA.
   <color name="fuchsia" value="#0086B3"/>
   <color name="aqua" value="#874460"/>
   <color name="dark_teal" value="#009999"/>
+  <color name="grey" value="#999999"/>
 <!-- Global Settings -->
 
   <style name="text" foreground="black" background="off_white"/>
@@ -124,6 +125,15 @@ Boston, MA 02111-1307, USA.
 <!-- XML Styles -->
   <style name="xml:attribute-name" foreground="purple"/>
   <style name="xml:element-name" foreground="teal"/>
- 
+
+<!-- CSS Styles -->
+  <style name="css:dimension" foreground="dark_teal"/>
+  <style name="css:comment" foreground="dark_pine_green"/>
+  <style name="css:property-names" foreground="black" bold="true"/>
+  <style name="css:known-property-values" foreground="black" bold="true"/>
+  <style name="css:hexadecimal-color" foreground="dark_teal"/>
+  <style name="css:function" foreground="faded_red"/>
+  <style name="css:importance-modifier" foreground="grey"/>
+
 </style-scheme>
  
