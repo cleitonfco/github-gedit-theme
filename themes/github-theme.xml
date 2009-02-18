@@ -72,6 +72,7 @@ Boston, MA 02111-1307, USA.
   <style name="def:keyword" foreground="black" bold="true"/>
   <style name="def:variable" foreground="gh_olive"/>
   <style name="def:statement" foreground="black" bold="true"/>
+  <style name="def:function" foreground="faded_red"/>
   
   <style name="def:special-char" foreground="black"/>
   <style name="def:special-constant" foreground="gh_olive" bold="true"/>
@@ -127,14 +128,11 @@ Boston, MA 02111-1307, USA.
   <style name="xml:element-name" foreground="teal"/>
 
 <!-- CSS Styles -->
-  <style name="css:dimension" foreground="dark_teal"/>
-  <style name="css:comment" foreground="dark_pine_green"/>
   <style name="css:property-names" foreground="black" bold="true"/>
   <style name="css:known-property-values" foreground="black" bold="true"/>
   <style name="css:hexadecimal-color" foreground="dark_teal"/>
-  <style name="css:function" foreground="faded_red"/>
   <style name="css:importance-modifier" foreground="grey"/>
-  <style name="css:at-rules" foreground="black" bold="true"/>
+  <style name="css:selector-pseudo-classes" foreground="black"/>
 
 </style-scheme>
  
