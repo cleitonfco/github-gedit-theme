@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright (C) 2009 Cairo Noleto <caironoleto@gmail.com>
+Copyright (C) 2009 Cleiton Francisco <cleitonfco@gmail.com>
+ 
+This library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Library General Public
+License as published by the Free Software Foundation; either
+version 2 of the License, or (at your option) any later version.
+ 
+This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+Library General Public License for more details.
+ 
+You should have received a copy of the GNU Library General Public
+License along with this library; if not, write to the
+Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+Boston, MA 02111-1307, USA.
+-->
+<style-scheme id="github" _name="GitHub Theme" version="1.0">
+  <author>Cairo Noleto</author>
+  <author>Cleiton Francisco</author>
+  <_description>Low-contrast theme with a white background</_description>
+ 
+<!-- Colors -->
+  <color name="off_white" value="#f8f8ff"/>
+  <color name="black" value="#000000"/>
+  <color name="light_grey" value="#ffffcc"/>
+  <color name="medium_grey" value="#bfbfbf"/>
+  <color name="dark_grey" value="#aaaaaa"/>
+  <color name="steelblue3" value="#4f94cd"/>
+  <color name="dark_maroon" value="#002f29"/>
+  <color name="dark_pine_green" value="#999988"/>
+  <color name="maroon" value="#800000"/>
+  <color name="faded_red" value="#DD1144"/>
+  
+  <color name="teal" value="#0080a0"/>
+  <color name="purple" value="#990073"/>
+  <color name="yellow" value="#f9ee98"/>
+  <color name="gh_grey" value="#ECECEC"/>
+  <color name="gh_olive" value="#008080"/>
+  <color name="gh_green" value="#009926"/>
+  <color name="gh_blue" value="#445588"/>
+  <color name="fuchsia" value="#0086B3"/>
+  <color name="aqua" value="#874460"/>
+  <color name="dark_teal" value="#009999"/>
+<!-- Global Settings -->
+
+  <style name="text" foreground="black" background="off_white"/>
+  <style name="cursor" foreground="black"/>
+  <style name="current-line" background="light_grey"/>
+  <style name="line-numbers" foreground="dark_grey" background="gh_grey"/>
+  
+<!-- Bracket Matching -->
+  <style name="bracket-match" background="steelblue3"/>
+  <style name="bracket-mismatch" background="dark_maroon" bold="true"/>
+  <style name="search-match" foreground="off_white" background="steelblue3"/>
+
+<!-- Comments -->
+  <style name="def:comment" foreground="dark_pine_green"/>
+  <style name="def:shebang" foreground="dark_pine_green" italic="true"/>
+  <style name="def:doc-comment-element" foreground="dark_pine_green" bold="true"/>
+
+<!-- Constants and Variables-->
+  <style name="def:constant" foreground="gh_olive"/>
+  <style name="def:string" foreground="faded_red"/>
+  <style name="def:boolean" foreground="black" bold="true"/>
+  <style name="def:number" foreground="dark_teal"/>
+  <style name="def:floating-point" foreground="dark_teal"/>
+  <style name="def:keyword" foreground="black" bold="true"/>
+  <style name="def:variable" foreground="gh_olive"/>
+  <style name="def:statement" foreground="black" bold="true"/>
+  
+  <style name="def:special-char" foreground="black"/>
+  <style name="def:special-constant" foreground="gh_olive" bold="true"/>
+  
+  <style name="def:builtin" foreground="teal" bold="true"/>
+  
+<!-- Identifiers -->
+  <style name="def:identifier" foreground="black"/>
+<!-- Statements -->
+  
+ 
+<!-- Types -->
+  <style name="def:type" foreground="maroon"/>
+  
+<!-- Others -->
+  <style name="def:error" foreground="off_white" background="dark_maroon" bold="true"/>
+  <style name="def:note" foreground="yellow" bold="true"/>
+  <style name="def:net-address-in-comment" foreground="steelblue3" italic="false" underline="true"/>
+  <style name="def:preprocessor" color="maroon"/>
+    
+<!-- Unknown? -->
+  <style name="def:specials" background="purple"/>
+ 
+<!-- C Styles -->
+  <style name="c:preprocessor" map-to="def:special-char"/>
+ 
+<!-- Diff Styles -->
+  <style name="diff:ignore" foreground="medium_grey"/>
+ 
+<!-- Ruby Styles -->
+  <style name="ruby:module-handler" foreground="fuchsia"/>
+  <style name="ruby:symbol" foreground="purple"/>
+  <style name="ruby:regex" foreground="gh_green"/>
+  
+	<style name="ruby:comment" foreground="gh_grey"/>
+	<style name="ruby:attribute-definition" foreground="purple" bold="true"/>
+	<style name="ruby:builtin" foreground="gh_olive" />
+
+	<style name="ruby:special-variable" foreground="fuchsia"/>
+	<style name="ruby:predefined-variable" foreground="aqua"/>
+
+<style name="ruby:variable" foreground="gh_olive"/> 
+<!--<style name="ruby:symbol" foreground="cyan"/>-->
+<!--<style name="ruby:regex" foreground="fuchsia" bold="true"/>-->
+
+	<style name="ruby:constant" foreground="gh_olive"/>
+
+<!-- SH Styles -->
+  <style name="sh:others" map-to="text"/>
+  
+<!-- XML Styles -->
+  <style name="xml:attribute-name" foreground="purple"/>
+  <style name="xml:element-name" foreground="teal"/>
+ 
+</style-scheme>
+ 
