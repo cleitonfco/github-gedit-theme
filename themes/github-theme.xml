@@ -134,6 +134,7 @@ Boston, MA 02111-1307, USA.
   <style name="css:hexadecimal-color" foreground="dark_teal"/>
   <style name="css:function" foreground="faded_red"/>
   <style name="css:importance-modifier" foreground="grey"/>
+  <style name="css:at-rules" foreground="black" bold="true"/>
 
 </style-scheme>
  
